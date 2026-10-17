@@ -1,91 +1,105 @@
-
-# Online Food Delivery Dashboard | Power BI
+# Zomato Restaurant Analysis Dashboard | Power BI
 
 ## Project Overview
 
-The **Online Food Delivery Dashboard** is an interactive Power BI project designed to analyze customer behavior, online food ordering patterns, customer demographics, and feedback.
+The **Zomato Restaurant Analysis Dashboard** is an interactive Power BI project designed to analyze restaurant data, ratings, customer votes, pricing, online delivery availability, and restaurant distribution across cities.
 
-The dashboard provides insights into ordering behavior across different occupations, income groups, education levels, customer segments, and genders. It helps understand customer preferences and evaluate online ordering trends.
+The dashboard transforms restaurant data into meaningful visual insights to help understand restaurant performance, customer preferences, and food service trends.
 
-## Objectives
+## Project Objectives
 
-- Analyze online food ordering behavior.
-- Understand customer distribution by occupation and income.
-- Compare customer segments such as New, Regular, and Frequent.
-- Analyze customer demographics based on education and gender.
-- Evaluate customer feedback and positive feedback rates.
+- Analyze the total number of restaurants and their ratings.
+- Understand restaurant distribution across different cities.
+- Analyze restaurant ratings and customer votes.
+- Compare restaurants based on price range.
+- Examine online delivery availability.
+- Identify the top 10 restaurants by votes.
 - Build an interactive dashboard using Power BI.
 
 ## Key Performance Indicators (KPIs)
 
 | KPI | Result |
 |---|---:|
-| Total Customers | 388 |
-| Online Orders | 301 |
-| Ordering Rate | 0.78 |
-| Positive Feedback | 317 |
-| Positive Feedback Rate | 0.82 |
+| Total Restaurants | 9,551 |
+| Average Rating | 2.67 |
+| Total Votes | Approximately 1 Million |
+| Average Cost for Two | 1.20K |
 
 ## Dashboard Features
 
-### 1. Online Ordering by Occupation
-Analyzes online food ordering across different occupations, including Students, Employees, Self-Employed customers, and Housewives.
+### 1. Total Restaurants Analysis
+Displays the total number of restaurants included in the dataset.
 
-### 2. Customer Distribution by Income
-Shows how customers are distributed across different monthly income groups.
+### 2. Average Restaurant Rating
+Shows the average rating across restaurants to provide an overview of restaurant performance.
 
-### 3. Customer Segment Distribution
-Displays customer segments, including New, Regular, and Frequent customers.
+### 3. Total Votes Analysis
+Highlights customer voting activity and engagement with restaurants.
 
-### 4. Customers by Education
-Analyzes customer distribution based on educational qualifications, such as Graduate, Post Graduate, Ph.D., School, and Uneducated.
+### 4. Average Cost for Two
+Displays the average cost for two people, helping analyze restaurant pricing.
 
-### 5. Ordering Behavior by Gender
-Compares online ordering behavior between customers based on gender.
+### 5. Online Delivery Availability
+Analyzes restaurants according to whether online delivery is available.
 
-### 6. Online Food Ordering Behavior
-Highlights the distribution of customers according to their online food ordering behavior.
+### 6. Restaurant Rating Distribution
+Visualizes how restaurants are distributed across different rating values.
 
-### 7. Customer Feedback Analysis
-Analyzes positive and negative customer feedback to understand customer satisfaction.
+### 7. Restaurants by Price Range
+Analyzes restaurant distribution across price ranges from 1 to 4.
+
+### 8. Top 10 Restaurants by Votes
+Highlights restaurants with high customer voting activity, including Barbeque Nation, AB's - Absolute Barbecues, Toit, Big Chill, and Farzi Cafe.
+
+### 9. Top 10 Cities by Restaurants
+Displays restaurant counts across the cities represented in the dashboard.
 
 ## Key Insights
 
-- The dashboard represents **388 total customers**.
-- A total of **301 online orders** are recorded in the dashboard.
-- Students form the largest occupation group for online ordering, with 207 customers.
-- Employees account for 118 customers, followed by Self-Employed customers with 54 and Housewives with 9.
-- The dashboard records 317 positive feedback responses.
-- The positive feedback rate is approximately 81.7%, displayed as 0.82 in the KPI.
-- Online ordering behavior, customer income, education, and customer segments can be explored using interactive filters.
+- The dashboard contains **9,551 restaurants**.
+- The overall average restaurant rating is **2.67**.
+- Total customer votes are approximately **1 million**.
+- The average cost for two is displayed as **1.20K**.
+- Restaurant pricing is analyzed across four price ranges, with blank values also visible in the chart.
+- Online delivery availability is compared between restaurants offering and not offering delivery.
+- Barbeque Nation and AB's - Absolute Barbecues appear among the restaurants highlighted in the Top 10 by Votes visual.
+- Interactive filters allow users to explore the data by country code, table booking, city, rating text, price range, and online delivery availability.
 
-*Note: Insights are based on the values displayed in the dashboard.*
+*Note: Insights are based on the values and visuals displayed in the dashboard.*
 
 ## Tools and Technologies
 
-- **Power BI Desktop** – Dashboard development and data visualization
+- **Power BI Desktop** – Dashboard development
 - **Data Visualization** – KPI cards, bar charts, and distribution charts
-- **Interactive Filters** – Gender, Occupation, Customer Type, and Monthly Income
+- **Interactive Slicers** – Country Code, Has Table Booking, City, Rating Text, Price Range, and Has Online Delivery
+- **Data Analysis** – Restaurant ratings, votes, pricing, and delivery availability
 
 ## Dashboard Preview
 
-Upload a screenshot of your Power BI dashboard to this GitHub repository and add the following Markdown below, replacing the filename with your actual screenshot filename:
+Upload a screenshot of your dashboard to the repository and use the following Markdown. Replace `zomato_dashboard.png` with your actual screenshot filename.
 
-`![Online Food Delivery Dashboard](dashboard.png)`
+`![Zomato Restaurant Analysis Dashboard](zomato_dashboard.png)`
 
 ## Business Value
 
-This dashboard helps stakeholders understand customer ordering patterns, identify important customer segments, monitor customer feedback, and make data-driven decisions to improve the online food ordering experience.
+This dashboard helps users explore restaurant performance, customer engagement, pricing categories, and online delivery availability. These insights can support restaurant comparisons and data-driven business decisions.
 
 ## Conclusion
 
-The Online Food Delivery Dashboard demonstrates the use of Power BI to transform customer data into meaningful visual insights. It provides an interactive view of customer demographics, ordering behavior, and feedback, supporting better business analysis and decision-making.
+The Zomato Restaurant Analysis Dashboard demonstrates how Power BI can be used to analyze restaurant data through interactive visualizations and KPI tracking. It provides an overview of restaurant ratings, pricing, customer votes, and delivery services.
 
 ## Author
 
 **Md Hasnain**
 
 B.Tech | Aspiring Data Analyst
+
+Skills: Power BI, SQL, Excel, Data Visualization
+
+---
+
+If you find this project useful, feel free to explore the repository and share your feedback.
+
 
 Skills: Power BI, SQL, Excel, Data Visualization
 
