@@ -78,7 +78,9 @@ Displays restaurant counts across the cities represented in the dashboard.
 
 Upload a screenshot of your dashboard to the repository and use the following Markdown. Replace `zomato_dashboard.png` with your actual screenshot filename.
 
-`![Zomato Restaurant Analysis Dashboard](zomato_dashboard.png)`
+`![## Dashboard Preview
+
+![Online Food Delivery Dashboard](dashboard.png)Zomato Restaurant Analysis Dashboard](zomato_dashboard.png)`
 
 ## Business Value
 
