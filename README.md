@@ -108,3 +108,8 @@ Skills: Power BI, SQL, Excel, Data Visualization
 ---
 
 If you found this project useful, feel free to explore the repository and share your feedback.
+
+## Connect With Me
+
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/md-hasnain-42a076235)
+- **GitHub:** [My GitHub Profile](https://github.com/mdh05804-bit)
